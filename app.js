@@ -114,13 +114,13 @@ console.log(colors);
 colors.pop();
 console.log(colors);
 // f.
-var index = parseInt(prompt("Enter index to add color:"));
+var index = prompt("Enter index to add color:");
 var new3 = prompt("Enter color:");
-colors.splice(index, 0, new3);
-console.log(colors);
+colors.splice(Number(index), 0, new3);
+console.log(colors)
 // g.
-var deleteIndex = parseInt(prompt("Enter index to delete color(s):"));
-var deleteCount = parseInt(prompt("Enter number of colors to delete:"));
+var deleteIndex = prompt("Enter index to delete color(s):");
+var deleteCount = prompt("Enter number of colors to delete:");
 colors.splice(deleteIndex, deleteCount);
 console.log(colors);
 
